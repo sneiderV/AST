@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageButton</string>
+    <string name="cont_js">node.js</string>
+    <string name="cont_react">react</string>
+</resources>
