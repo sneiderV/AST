@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context="com.example.sneider.webview.ActivityWeb">
 
+    <WebView
+        android:id="@+id/wv"
+        android:layout_width="374dp"
+        android:layout_height="462dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="78dp"
+        android:layout_height="41dp"
+        android:onClick="cerrar"
+        android:text="@string/botonCerrar"
+        app:layout_constraintTop_toBottomOf="@+id/wv"
+        tools:layout_editor_absoluteX="153dp" />
 </android.support.constraint.ConstraintLayout>
